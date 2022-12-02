@@ -1,0 +1,95 @@
+/*
+    selector {
+        property: value;
+        property: value;
+    }
+
+    selector options:
+    tagname such as p or img
+    class name such as .green or .highlighted
+    tag.class such as h1.green or p.highlighted
+    ex:
+    h1.green{
+
+    }
+    parent>child
+    tagname>tagname
+    tagname>.classname
+    .classname>.classname
+*/
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+h1.countryopen{
+    font-size: 64px;
+}
+
+p.countrybio{
+    font-size: 40px;
+    margin-right: 50%;
+    background-color: aliceblue;
+
+    
+}
+
+.nav{
+    list-style: none;
+    border-style: none;
+    width: 50%;
+    margin: auto;
+   text-align: center;
+
+}
+
+.nav>li{
+    display: inline-block;
+    border-style: outset;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    font-style: normal;
+    background-color: antiquewhite;
+
+}
+.facttext{
+    font-size: 48px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.factimg{
+    display:block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+
+
+
+
+body{
+
+    background-image: url(images/Sandals-White-House-Jamaica-Over-Water-Bungalows\ -\ Copy.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.facttitle{
+    text-align: center;
+
+}
+
+p.center{
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 40px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
